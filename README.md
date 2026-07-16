@@ -12,6 +12,8 @@ This is a fictional brand created for learning and portfolio purposes. It is not
 
 I plan to continue improving the website by adding more pictures, pages, refining animations, enhancing responsiveness, and implementing additional interactive features.
 
+[](https://ykmhk.github.io/concept-brand-web-practice/)
+
 ## Assets & Credits
 
 All pictures used in this project are downloaded from royalty-free image websites, including Pexels and Kaboompics. They are used for educational and portfolio purposes only and are not intended for commercial use.
