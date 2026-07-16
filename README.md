@@ -12,7 +12,7 @@ This is a fictional brand created for learning and portfolio purposes. It is not
 
 I plan to continue improving the website by adding more pictures, pages, refining animations, enhancing responsiveness, and implementing additional interactive features.
 
-[](https://ykmhk.github.io/concept-brand-web-practice/)
+[link to index page](https://ykmhk.github.io/concept-brand-web-practice/)
 
 ## Assets & Credits
 
