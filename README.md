@@ -9,7 +9,7 @@ This project is a personal website building practice created to improve my skill
 This is a fictional brand created for learning and portfolio purposes. It is not associated with any existing company or commercial product.
 
 ## 🚧 This project is still a work in progress.
-
+I haven't done all the pages and its currently not suitable for viewing with phone.
 I plan to continue improving the website by adding more pictures, pages, refining animations, enhancing responsiveness, and implementing additional interactive features.
 
 [link to index page](https://ykmhk.github.io/concept-brand-web-practice/)
