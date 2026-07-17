@@ -802,3 +802,134 @@ html {
    transform: translateX(0);
 }
 
+
+
+@media (max-width: 700px) {
+  
+ 
+  .collection-hero {
+    flex-direction: column-reverse; 
+    padding: 40px 24px;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .collection-text {
+    flex: none;
+    width: 100%;
+    margin-right: 0;
+    transform: none;
+    text-align: center;
+    pointer-events: auto;
+    padding-top: 30px;
+  }
+
+  .collection-text h1 {
+    font-size: 3.5rem;
+    white-space: normal; 
+  }
+
+  .collection-text p {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .collection-image {
+    flex: none;
+    width: 100%;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+
+  .collection-image img {
+    height: 350px;
+    border-radius: 8px;
+  }
+
+
+  .collections-container {
+    flex-direction: column;
+    padding: 0 24px;
+  }
+
+
+  .side-collections-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 72px;         
+    left: 0;
+    width: 100vw;       
+    margin-left: -24px; 
+    margin-right: -24px;
+    padding: 16px 24px; 
+    
+    display: flex;
+    flex-direction: row; 
+    overflow-x: auto;   
+    white-space: nowrap;
+    gap: 20px;
+    background: rgba(246, 241, 232, 0.96); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    border-bottom: 1px solid rgba(47, 42, 37, 0.08);
+    z-index: 90;       
+    margin-bottom: 30px;
+  }
+  
+  .side-collections-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .collections-content {
+    padding-left: 0; 
+  }
+
+  .collection-section {
+    padding: 40px 0;
+  }
+
+  .collection-info h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .collection-info {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .product-grid .product-card:nth-child(even) {
+    transform: none;
+  }
+
+  .product-grid .product-card:nth-child(3) {
+    grid-column: span 1;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .product-grid .product-card:nth-child(3) img,
+  .product-grid .product-card:nth-child(3) .product-text {
+    width: 100%;
+  }
+
+  .product-card img {
+    height: 320px;
+  }
+  
+  .product-card img:hover {
+    transform: none; 
+  }
+
+  .collection-text, 
+  .collection-image {
+    transform: none !important;
+  }
+}
